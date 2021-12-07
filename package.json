@@ -1,0 +1,23 @@
+{
+  "name": "formation_typescript",
+  "version": "1.0.0",
+  "description": "Tests et exercices de la formation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpofredc/formation_typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpofredc/formation_typescript/issues"
+  },
+  "homepage": "https://github.com/lpofredc/formation_typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
