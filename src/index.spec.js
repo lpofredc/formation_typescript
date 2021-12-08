@@ -7,6 +7,7 @@ describe("Battle", () => {
     });
     it.todo("should picachu attack first");
     it("should make pikachu level up when fight against salameche", (pikachu, salameche) => {
+      jest.spyOn(logPokemonPvStatus).getMockImplementation(() => {});
       console.log(battleWinner(pikachu, salameche));
       expect(battleWinner(pikachu, salameche)).toEqual(pikachu);
     });

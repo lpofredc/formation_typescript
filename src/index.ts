@@ -1,9 +1,11 @@
 import fight from './fights/fights';
+import { logPokemonPvStatus } from './logger/utils';
 import { pikachu, salameche, bulbizarre } from './pokemon/pokemons';
 
-console.log(pikachu)
-console.log(salameche)
-console.log(bulbizarre)
+console.log('before')
+logPokemonPvStatus(pikachu)
+logPokemonPvStatus(salameche)
+logPokemonPvStatus(bulbizarre)
 
 
 fight(pikachu, salameche)
@@ -12,6 +14,7 @@ fight(pikachu, bulbizarre)
 fight(bulbizarre, pikachu)
 fight(bulbizarre, salameche)
 
-console.log(pikachu)
-console.log(salameche)
-console.log(bulbizarre)
+console.log('after')
+logPokemonPvStatus(pikachu)
+logPokemonPvStatus(salameche)
+logPokemonPvStatus(bulbizarre)
